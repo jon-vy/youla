@@ -2,7 +2,7 @@ import datetime
 import os
 import links_items
 import pars_item
-import variables, pr
+import variables
 from pathlib import Path
 today = datetime.datetime.today()
 variables.directory = today.strftime("%Y-%m-%d_%H.%M.%S")
